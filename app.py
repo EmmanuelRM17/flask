@@ -19,7 +19,7 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Obtener los datos enviados en el request
+        # Obtener los datos enviados en el requestt
         abdomen = float(request.form['abdomen'])
         antena = float(request.form['antena'])
 
